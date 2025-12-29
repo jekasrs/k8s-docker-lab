@@ -54,7 +54,7 @@ kubectl get pods
 kubectl describe deployment web
 ```
 
-![info_kuber](./screenshots/screenshot_1)
+![info_kuber](screenshots/screenshot_1.png)
 
 ### Доступ к приложению
 Для доступа к приложению использовалась команда kubectl port-forward.
@@ -65,4 +65,4 @@ kubectl port-forward deployment/web 8080:8000
 После этого приложение стало доступно по адресу: http://127.0.0.1:8080/hello.html
 
 
-![result_curl](./screenshots/screenshot_2)
+![result_curl](screenshots/screenshot_2.png)
