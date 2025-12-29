@@ -49,15 +49,12 @@ docker push jekasrs/hello-web:1.0.0
 kubectl apply -f deployment.yaml
 ```
 
-скриншот_0
-
 ```bash
-kubectl apply -f deployment.yaml
 kubectl get pods
 kubectl describe deployment web
 ```
 
-скриншот_1
+![info_kuber](./screenshots/screenshot_1)
 
 ### Доступ к приложению
 Для доступа к приложению использовалась команда kubectl port-forward.
@@ -67,4 +64,5 @@ kubectl port-forward deployment/web 8080:8000
 
 После этого приложение стало доступно по адресу: http://127.0.0.1:8080/hello.html
 
-скриншот_2
+
+![result_curl](./screenshots/screenshot_2)
