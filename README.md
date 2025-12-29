@@ -48,13 +48,14 @@ docker push jekasrs/hello-web:1.0.0
 ```bash
 kubectl apply -f deployment.yaml
 ```
+![info_kuber](screenshots/screenshot_1.png)
+
 
 ```bash
 kubectl get pods
 kubectl describe deployment web
 ```
-
-![info_kuber](screenshots/screenshot_1.png)
+![info_kuber](screenshots/screenshot_3.png)
 
 ### Доступ к приложению
 Для доступа к приложению использовалась команда kubectl port-forward.
